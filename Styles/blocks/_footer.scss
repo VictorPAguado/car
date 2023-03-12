@@ -1,0 +1,51 @@
+.menus{
+    padding-bottom: 10px;
+}
+
+.menu{
+    background-color: rgb(228, 228, 228);;
+    display: flex;
+    padding: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+}
+
+.menu h3 {
+    padding:20px 0px 20px 5px;
+}
+
+.menu ul{
+    list-style: none;
+    text-align: left;
+    text-decoration: none;
+}
+
+.menu li {
+    padding:7px;
+    font-weight: 600;
+    color: grey;
+    text-decoration: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: grey;
+}
+
+.copy {
+    display: flex;
+    padding:10px 30px 30px 30px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.copy__left{
+    display: flex;
+}
+
+
+.copy__left img{
+    display: flex;
+    width: 15px;
+    height: 15px;
+    padding-right: 2px;
+}

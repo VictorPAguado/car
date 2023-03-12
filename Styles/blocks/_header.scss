@@ -1,0 +1,82 @@
+header {
+    background-image: url(/Images/background.jpg);
+    height: 972px;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    background-position: center center;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-direction: row;
+    width: 1280px;
+    height: 50px;
+    border-bottom: 1px solid white;
+    padding-bottom: 30px;
+}
+
+.navbar__left {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 25px;
+}
+
+.navbar__left li{
+    list-style: none;
+    color: white;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 20px 0px 20px;
+}
+.navbar__icons {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 25px;
+}
+.navbar__logo {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    margin-left: 10px;
+}
+.cta {
+    display: flex;
+    justify-content: flex-end;
+    align-items: left;
+    flex-direction: column;
+    height: 760px;
+    margin-left: 40px;
+}
+
+.cta h1{
+    color: white;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cta h2{
+    color: white;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cta button{
+    height: 50px;
+    width: 300px;
+    margin-top: 10px;
+    color: white;
+    background-color: #1c68d5; 
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}

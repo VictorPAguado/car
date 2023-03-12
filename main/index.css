@@ -1,0 +1,361 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  background-image: url(/Images/background.jpg);
+  height: 972px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  background-position: center center;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-direction: row;
+  width: 1280px;
+  height: 50px;
+  border-bottom: 1px solid white;
+  padding-bottom: 30px;
+}
+
+.navbar__left {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 25px;
+}
+
+.navbar__left li {
+  list-style: none;
+  color: white;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0px 20px 0px 20px;
+}
+
+.navbar__icons {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding-top: 25px;
+}
+
+.navbar__logo {
+  display: flex;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  margin-left: 10px;
+}
+
+.cta {
+  display: flex;
+  justify-content: flex-end;
+  align-items: left;
+  flex-direction: column;
+  height: 760px;
+  margin-left: 40px;
+}
+
+.cta h1 {
+  color: white;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cta h2 {
+  color: white;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cta button {
+  height: 50px;
+  width: 300px;
+  margin-top: 10px;
+  color: white;
+  background-color: #1c68d5;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 300px;
+  gap: 50px;
+}
+
+.gallery__title {
+  color: rgb(207, 207, 207);
+  font-size: 18px;
+  margin-left: 610px;
+  margin-right: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery__list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 30px;
+  width: 1280px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.gallery__list--item {
+  text-decoration: none;
+  padding: 20px;
+  padding-bottom: 30px;
+  margin: 0px 10px 0px 10px;
+  color: rgb(207, 207, 207);
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.gallery__list--item__especial {
+  color: black;
+  font-size: 40px;
+  font-weight: 520;
+  padding: 1px;
+  margin-bottom: -31px;
+  border-bottom: 6px solid #1c68d5;
+}
+
+.gallery2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  width: 1280px;
+}
+
+.gallery__cars--first__title {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery__cars--first__name {
+  font-weight: 600;
+}
+
+.gallery__cars--first__price {
+  font-weight: 200;
+  color: grey;
+}
+
+.gallery__cars--first__legend {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  color: black;
+  font-weight: 600;
+}
+
+.article {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-items: stretch;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.articles {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid rgba(128, 128, 128, 0.369);
+  text-align: center;
+}
+
+.articles__img img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.articles__text {
+  margin-bottom: 20px;
+}
+
+.articles__text--p {
+  padding: 10px;
+}
+
+.articles__text--cta {
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  height: 400px;
+  margin-top: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 10%;
+}
+
+.blog {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 58%;
+}
+
+.blog__article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 950px;
+  height: 600px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.blog__article--img {
+  width: 95%;
+  height: 80%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.blog__article--video-preview {
+  background-image: url("https://i.ytimg.com/vi/uAFj_YcSLy8/maxresdefault.jpg");
+  position: relative;
+  width: 95%;
+  height: 80%;
+  background-position: center center;
+}
+
+.blog__article--title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.blog__article--p {
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 600;
+}
+
+.blog__article--play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.sections {
+  display: flex;
+  width: 1500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.section__config--box {
+  background-color: rgb(228, 228, 228);
+  width: 20%;
+  height: 150px;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+.section__config--img {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  padding: 8%;
+}
+
+.section__config--p {
+  display: flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: grey;
+  font-size: 105%;
+}
+
+.menus {
+  padding-bottom: 10px;
+}
+
+.menu {
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+}
+
+.menu h3 {
+  padding: 20px 0px 20px 5px;
+}
+
+.menu ul {
+  list-style: none;
+  text-align: left;
+  text-decoration: none;
+}
+
+.menu li {
+  padding: 7px;
+  font-weight: 600;
+  color: grey;
+  text-decoration: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: grey;
+}
+
+.copy {
+  display: flex;
+  padding: 10px 30px 30px 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.copy__left {
+  display: flex;
+}
+
+.copy__left img {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  padding-right: 2px;
+}/*# sourceMappingURL=index.css.map */
